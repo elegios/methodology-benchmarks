@@ -30,6 +30,19 @@ compile_everything
 As a helper in case you want to re-run everything, run
 `compile-everything bench`.
 
+## Generating graphs
+
+The graphs are generate using `matplotlib` and `scikit-learn` inside a jupyter lab notebook.
+
+```
+pip3 install jupyterlab
+pip3 install matplotlib
+pip3 install scikit-learn
+jupyter lab
+```
+
+Just run the entire notebook to produce all the graphs.
+
 ## Adding stuff
 
 To add a new project to be parsed for benchmarking, add it in the
